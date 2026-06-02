@@ -67,13 +67,14 @@ it matters most.
 - Google Colab — development environment
 
 ---
-
 ## Project Structure
+
+```
 fraud-detection/
-│
 ├── vehicle_fraud_detection.ipynb   # full analysis with outputs
 ├── fraud_oracle.csv                # dataset (source: Kaggle)
-├── README.md                       # this file
+└── README.md                       # this file
+```
 
 ---
 
