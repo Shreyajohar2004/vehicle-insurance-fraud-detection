@@ -98,5 +98,7 @@ fraud-detection/
 ---
 
 Author: Shreya Johar
+
 MSc Business Analytics - Warwick Business School
+
 GitHub: github.com/Shreyajohar2004
