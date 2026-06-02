@@ -4,7 +4,7 @@
 Built a supervised machine learning pipeline to detect fraudulent vehicle 
 insurance claims, using the real Oracle fraud detection dataset 
 (Kaggle: shivamb/vehicle-claim-fraud-detection). The goal is to help an 
-insurance company prioritise which claims to investigate — catching the 
+insurance company prioritise which claims to investigate - catching the 
 most fraud while managing investigation costs.
 
 ---
@@ -19,11 +19,11 @@ it matters most.
 ---
 
 ## Dataset
-- Source   : Kaggle — shivamb/vehicle-claim-fraud-detection
+- Source   : Kaggle - shivamb/vehicle-claim-fraud-detection
 - Rows     : 15,420 claims
 - Columns  : 33 features (demographics, vehicle, policy, claim details)
 - Target   : FraudFound_P (0 = genuine, 1 = fraud)
-- Fraud rate : ~6% — a realistic, heavily imbalanced classification problem
+- Fraud rate : ~6% - a realistic, heavily imbalanced classification problem
 
 ---
 
@@ -32,7 +32,7 @@ it matters most.
   (missing), auto-detected numeric vs categorical features
 - Compared a Logistic Regression baseline against a Random Forest using 
   stratified 5-fold cross-validation
-- Evaluated using ROC-AUC and PR-AUC — not accuracy, which is meaningless 
+- Evaluated using ROC-AUC and PR-AUC - not accuracy, which is meaningless 
   at 6% fraud prevalence
 - Selected a decision threshold based on business cost (missed fraud vs 
   investigation cost) rather than the default 0.5
@@ -61,10 +61,10 @@ it matters most.
 
 ## Tech Stack
 - Python 3
-- pandas — data loading and cleaning
-- scikit-learn — preprocessing, modelling, evaluation
-- matplotlib / seaborn — visualisation
-- Google Colab — development environment
+- pandas - data loading and cleaning
+- scikit-learn - preprocessing, modelling, evaluation
+- matplotlib / seaborn - visualisation
+- Google Colab - development environment
 
 ---
 ## Project Structure
@@ -98,7 +98,5 @@ fraud-detection/
 ---
 
 Author: Shreya Johar
-
-MSc Business Analytics — Warwick Business School
-
+MSc Business Analytics - Warwick Business School
 GitHub: github.com/Shreyajohar2004
